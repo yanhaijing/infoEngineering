@@ -1,0 +1,13 @@
+/* CSS Document */
+#nav{ width:800px; height:30px; margin:50px auto; background:#ccc; line-height:30px; }
+#nav li{ list-style:none; float:left; font-weight:bold; vertical-align:middle;}
+#nav li a{ display:block; width:100%; text-align:center; color:#000; text-decoration:none;}
+#nav li a:hover{ color:#fff; background:#f00; text-decoration:none;}
+#nav li ul{ display:none; position:absolute; background:#999; line-height:25px;}
+#nav li.show ul{ display:block;}
+#nav li.show ul li{ float:none; font-size:12px;}
+#nav li.show ul li a{ text-align:left; padding-left:10%; width:90%;}
+#nav li.show ul ul{ display:none;}
+#nav li li.show ul{ display:block;}
+
+

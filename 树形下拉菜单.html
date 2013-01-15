@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>树形下拉菜单</title>
+<style type="text/css">
+td {
+	font-size:12px; 
+	font-family:"新宋体";
+	}
+</style>
+<script language="javascript">
+<!--
+	function treebr0(i)
+	{
+		obj=eval('d'+i);
+		objimage=eval('image'+i);
+		if (obj.style.display == "none"){
+			obj.style.display ='block';
+			objimage.src="images/dotCm.gif";
+		    }
+		else{
+			obj.style.display ='none';
+			objimage.src="images/dotOm.gif";
+			}
+	}
+-->
+</script>
+</head>
+
+<body>
+<table cellspacing="0" cellpadding="0" width="200" border="0" style="cursor:pointer" onclick="javascript:treebr0(1);">
+	<tr><td width="4"></td><td width="16" height="16"><img src="images/dotom.gif" id="image1" /></td><td align="left"><b>我的办公室</b></td></tr>    </table>
+   <table cellspacing="0" cellpadding="0" width="200" border="0" id="d1" style="display:none">
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotL.gif" /></td><td><a href="">我的邮件</a></td>
+   </tr>
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotM.gif" /></td><td>我的邮件</td>
+   </tr>
+   </table>
+ <table cellspacing="0" cellpadding="0" width="200" border="0" style="cursor:pointer" onclick="javascript:treebr0(2);">
+	<tr><td width="4"></td><td width="16" height="16"><img src="images/dotom.gif" id="image2" /></td><td align="left"><b>共享资源</b></td></tr>    </table>
+   <table cellspacing="0" cellpadding="0" width="200" border="0" id="d2" style="display:none">
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"><img src="images/dotMargin.gif" /></td><td width="16"><img src="images/dotM.gif" /></td><td>我的邮件</td>
+   </tr>
+   </table>
+   <table cellspacing="0" cellpadding="0" width="200" border="0" style="cursor:pointer" onclick="javascript:treebr0(3);">
+	<tr><td width="4"></td><td width="16" height="16"><img src="images/dotom.gif" id="image3" /></td><td align="left"><b>办公助理</b></td></tr>    </table>
+    <table cellspacing="0" cellpadding="0" width="200" border="0" id="d3" style="display:none">
+   <tr><td width="4"></td><td width="16"></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"></td><td width="16"><img src="images/dotL.gif" /></td><td>我的邮件</td>
+   </tr>
+   <tr><td width="4"></td><td width="16"></td><td width="16"><img src="images/dotM.gif" /></td><td>我的邮件</td>
+   </tr>
+   </table>
+</body>
+</html>

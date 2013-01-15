@@ -1,0 +1,13 @@
+#link *{ margin:0; padding:0;}
+#nav{ width:970px; height:31px; margin:0px auto; background:url(../images/blue_mid.png) repeat-x; line-height:31px; }
+#nav li{ list-style:none; float:left; vertical-align:middle; text-align:center; width:97px; }
+#nav li a{ display:block; text-align:center; font-weight:600; color:#FFF; text-decoration:none; background:url(../images/blue_mid.png) repeat-x; width:auto;}
+#nav li a:hover{ background:url(../images/green_mid.png) repeat-x; text-decoration:none;}
+#nav li ul{ display:none; position:absolute; background:#999; line-height:31px; list-style:circle;}
+#nav li ul a{ background:#EEE; color:#000; font-size:12px; font-weight:normal;}
+#nav li ul a:hover{ background:#DDD; color:#06C;}
+#nav li.show ul{ display:block;}
+#nav li.show ul li{ float:none; font-size:12px; }
+#nav li.show ul li a{ text-align:left; padding-left:10%; width:90%;}
+#nav li.show ul ul{ display:none;}
+#nav li li.show ul{ display:block;}
